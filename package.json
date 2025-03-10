@@ -1,15 +1,15 @@
 {
-  "homepage": "https://adibsssss.github.io/todo_app/",
   "name": "npm",
   "private": true,
+  "homepage": "https://adibsssss.github.io/todo_app/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "react-scripts start",
+    "start": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "react-scripts build",
+    "build": "vite build",
     "test": "react-scripts test",
     "lint": "eslint .",
     "preview": "vite preview"
